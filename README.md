@@ -1,4 +1,4 @@
 SymfonyBlog
 ===========
 
-A Symfony project created on August 11, 2018, 2:00 pm.
+This Blog is built using Symfony 3.4
