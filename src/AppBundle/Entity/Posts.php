@@ -45,6 +45,19 @@ class Posts
      */
     private $user;
 
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Category", inversedBy="posts")
+     * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
+     */
+    private $category;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Comment", mappedBy="posts")
+     */
+    private $comment;
+
+
     /**
      * @return mixed
      */
@@ -117,6 +130,22 @@ class Posts
     {
         $this->user = $user;
     }
+
+
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getComment()
+    {
+        return $this->comment;
+    }
+
+
 
 
 }

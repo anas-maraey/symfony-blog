@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26217de-1114-4e73-818a-e91ba0e43044" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/app/DoctrineMigrations/Version20180812214455.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/blog.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/blog.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Posts.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Posts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,19 +24,93 @@
       <file leaf-file-name="Posts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+            <state relative-caret-position="485">
+              <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="215">
+              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="63" />
+              <folding>
+                <element signature="e#116#164#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding>
+                <element signature="e#559#576#1#PHP" expanded="true" />
+                <element signature="e#645#665#1#PHP" expanded="true" />
+                <element signature="e#723#739#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="57" column="104" lean-forward="false" selection-start-line="57" selection-start-column="104" selection-end-line="57" selection-end-column="104" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/blog.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="78" column="58" lean-forward="false" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Comment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20180813003522.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180813003522.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="42" />
+              <folding>
+                <marker date="1534120522487" expanded="true" signature="585:637" ph="ALTER TABLE comment... " />
+                <marker date="1534120522487" expanded="true" signature="991:1026" ph="ALTER TABLE comment... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Version20180813003141.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180813003141.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-141">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1534120301873" expanded="true" signature="585:879" ph="CREATE TABLE... comment" />
+                <marker date="1534120301873" expanded="true" signature="906:1005" ph="ALTER TABLE comment... " />
+                <marker date="1534120301873" expanded="true" signature="1032:1133" ph="ALTER TABLE comment... " />
+                <marker date="1534120301873" expanded="true" signature="1487:1505" ph="DROP TABLE c... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +131,10 @@
       <find>block</find>
       <find>neon-c</find>
       <find>data/</find>
+      <find>blog-post</find>
+      <find>sidebar-content</find>
+      <find>86 Posts</find>
+      <find>image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,21 +147,24 @@
         <option value="$PROJECT_DIR$/web/css/entypo.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/blog.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Users.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/js/neon-login.js" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Posts.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Category.php" />
+        <option value="$PROJECT_DIR$/app/DoctrineMigrations/Version20180812234956.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Comment.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Posts.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/blog.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -184,6 +268,19 @@
             <path>
               <item name="SymfonyBlog" type="b2602c69:ProjectViewProjectNode" />
               <item name="SymfonyBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SymfonyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SymfonyBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SymfonyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SymfonyBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -191,6 +288,20 @@
               <item name="SymfonyBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SymfonyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SymfonyBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SymfonyBlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SymfonyBlog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -241,12 +352,12 @@
       <workItem from="1534094836921" duration="1694000" />
       <workItem from="1534100578081" duration="7348000" />
       <workItem from="1534109419566" duration="1567000" />
-      <workItem from="1534113157054" duration="949000" />
+      <workItem from="1534113157054" duration="7095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17073000" />
+    <option name="totallyTimeSpent" value="23219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1311" height="780" extended-state="6" />
@@ -319,11 +430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1534110295761" expanded="true" signature="585:870" ph="CREATE TABLE... posts" />
-            <marker date="1534110295761" expanded="true" signature="897:996" ph="ALTER TABLE posts... " />
-            <marker date="1534110295761" expanded="true" signature="1350:1366" ph="DROP TABLE p... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -431,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -447,13 +547,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/blog.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -461,13 +554,6 @@
           <folding>
             <element signature="e#116#148#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="227" column="53" lean-forward="false" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -552,26 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180812214455.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1534110295761" expanded="true" signature="585:870" ph="CREATE TABLE... posts" />
-            <marker date="1534110295761" expanded="true" signature="897:996" ph="ALTER TABLE posts... " />
-            <marker date="1534110295761" expanded="true" signature="1350:1366" ph="DROP TABLE p... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -585,8 +651,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180812234956.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180812214455.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180812235841.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180812235948.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180813003141.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1534120301873" expanded="true" signature="585:879" ph="CREATE TABLE... comment" />
+            <marker date="1534120301873" expanded="true" signature="906:1005" ph="ALTER TABLE comment... " />
+            <marker date="1534120301873" expanded="true" signature="1032:1133" ph="ALTER TABLE comment... " />
+            <marker date="1534120301873" expanded="true" signature="1487:1505" ph="DROP TABLE c... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180813003522.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <marker date="1534120522487" expanded="true" signature="585:637" ph="ALTER TABLE comment... " />
+            <marker date="1534120522487" expanded="true" signature="991:1026" ph="ALTER TABLE comment... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="e#559#576#1#PHP" expanded="true" />
+            <element signature="e#645#665#1#PHP" expanded="true" />
+            <element signature="e#723#739#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="63" />
+          <folding>
+            <element signature="e#116#164#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="78" column="58" lean-forward="false" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="57" column="104" lean-forward="false" selection-start-line="57" selection-start-column="104" selection-end-line="57" selection-end-column="104" />
           <folding />
         </state>
       </provider>

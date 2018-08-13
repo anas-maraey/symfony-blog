@@ -7,6 +7,36 @@
 
 
 {% block body %}
+<!-- Breadcrumb -->
+<section class="breadcrumb">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-9">
+
+                <h1>Home</h1>
+
+                <ol class="breadcrumb bc-3" >
+                    <li>
+                        <a href="{{ path('app_posts_index') }}"><i class="fa-home"></i>Home</a>
+                    </li>
+                </ol>
+
+            </div>
+
+            <div class="col-sm-3">
+
+                <h2 class="text-muted text-right">{{ posts|length }} Posts</h2>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- Blog -->
 <section class="blog">
@@ -20,7 +50,8 @@
                 <div class="blog-posts">
 
                     <!-- Blog Post -->
-                    <div class="blog-post">
+                    {% for post in posts %}
+                        <div class="blog-post">
 
                         <div class="post-thumb">
 
@@ -34,98 +65,33 @@
                         <div class="post-details">
 
                             <h3>
-                                <a href="blog-post.html">We hill lady will both sang room by</a>
+                                <a href="blog-post.html">{{ post.title }}</a>
                             </h3>
 
                             <div class="post-meta">
 
                                 <div class="meta-info">
-                                    <i class="entypo-calendar"></i> 04 November 2015								</div>
+                                    <i class="entypo-calendar"></i> {{ post.createdAt|date("d/m/Y") }}
+                                </div>
 
                                 <div class="meta-info">
                                     <i class="entypo-comment"></i>
-                                    3 comments
+                                    {{ post.comment|length }} comment
+                                </div>
+
+                                <div class="meta-info">
+                                    <i class="entypo-tag"></i>
+                                    {{ post.category.title }}
                                 </div>
 
                             </div>
 
-                            <p>Paid was hill sir high. For him precaution any advantages dissimilar comparison few terminated projecting. Prevailed discovery immediate objection of ye at. Repair summer one winter living feebly pretty his. In so sense am known these since.</p>
+                            <p>{{ post.content }}</p>
 
                         </div>
 
                     </div>
-
-                    <!-- Blog Post -->
-                    <div class="blog-post">
-
-                        <div class="post-thumb">
-
-                            <a href="blog-post.html">
-                                <img src="assets/images/blog-thumb-1.png" class="img-rounded" />
-                                <span class="hover-zoom"></span>
-                            </a>
-
-                        </div>
-
-                        <div class="post-details">
-
-                            <h3>
-                                <a href="blog-post.html">Allowance sweetness direction to as...</a>
-                            </h3>
-
-                            <div class="post-meta">
-
-                                <div class="meta-info">
-                                    <i class="entypo-calendar"></i> 02 November 2015								</div>
-
-                                <div class="meta-info">
-                                    <i class="entypo-comment"></i>
-                                    0 comments
-                                </div>
-
-                            </div>
-
-                            <p>Paid was hill sir high. For him precaution any advantages dissimilar comparison few terminated projecting. Prevailed discovery immediate objection of ye at. Repair summer one winter living feebly pretty his. In so sense am known these since.</p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Blog Post -->
-                    <div class="blog-post">
-
-                        <div class="post-thumb">
-
-                            <a href="blog-post.html">
-                                <img src="assets/images/blog-thumb-1.png" class="img-rounded" />
-                                <span class="hover-zoom"></span>
-                            </a>
-
-                        </div>
-
-                        <div class="post-details">
-
-                            <h3>
-                                <a href="blog-post.html">Is we miles ready he might going</a>
-                            </h3>
-
-                            <div class="post-meta">
-
-                                <div class="meta-info">
-                                    <i class="entypo-calendar"></i> 01 November 2015								</div>
-
-                                <div class="meta-info">
-                                    <i class="entypo-comment"></i>
-                                    1 comment
-                                </div>
-
-                            </div>
-
-                            <p>Paid was hill sir high. For him precaution any advantages dissimilar comparison few terminated projecting. Prevailed discovery immediate objection of ye at. Repair summer one winter living feebly pretty his. In so sense am known these since.</p>
-
-                        </div>
-
-                    </div>
+                    {% endfor %}
 
 
                     <!-- Blog Pagination -->
@@ -172,18 +138,11 @@
                     <div class="sidebar-content">
 
                         <ul>
-                            <li>
-                                <a href="#">Art Direction <span>(3)</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Photography <span>(7)</span></a>
-                            </li>
-                            <li>
-                                <a href="#">3D Modelling <span>(5)</span></a>
-                            </li>
-                            <li>
-                                <a href="#">Web Design <span>(1)</span></a>
-                            </li>
+                            {% for category in categories %}
+                                <li>
+                                    <a href="#">{{ category.title }} <span>{{ category.posts|length }}</span></a>
+                                </li>
+                            {% endfor %}
                         </ul>
 
                     </div>

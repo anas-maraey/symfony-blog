@@ -18,11 +18,31 @@ class PostsController extends Controller
 {
 
     /**
-     * @Route("/blog")
+     * @Route("/home")
      * @Method("GET")
      */
     function indexAction()
     {
-        return $this->render("blog.html.twig");
+        $em = $this->getDoctrine()->getManager();
+        $posts = $em->getRepository('AppBundle:Posts')
+            ->findAll();
+
+        $categories = $em->getRepository('AppBundle:Category')
+            ->findAll();
+
+
+        return $this->render("blog.html.twig", array(
+            'posts' => $posts,
+            'categories' => $categories
+            ));
+    }
+
+
+    /**
+     * @Route("/post/new")
+     */
+    function newAction()
+    {
+
     }
 }
